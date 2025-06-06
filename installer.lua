@@ -1,4 +1,4 @@
-local baseUrl = "https://raw.githubusercontent.com/yourusername/yourrepo/main/"
+local baseUrl = "https://raw.githubusercontent.com/0xZ0uk/cc-utils/main/"
 
 local files = {
     -- General utils
