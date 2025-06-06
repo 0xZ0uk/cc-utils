@@ -8,12 +8,12 @@ local function main(...)
     local cfg = config.processConfig()
     inventory.slots.assignSlots(cfg)
     local default = args[1] == "def"
-
+    
     if cfg.mineLoop then
         mining.launchMineLoop(cfg, default)
         return
     end
-
+    
     mining.launchDigging(cfg, default)
 end
 
