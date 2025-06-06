@@ -1,13 +1,12 @@
--- Load all modules
-local config = require("config")
-local slots = require("inventory").slots
-local ui = require("ui")
-local mining = require("mining")
+local config = require("/turtles/miner/config")
+local inventory = require("/turtles/miner/inventory")
+local ui = require("/turtles/miner/ui")
+local mining = require("/turtles/miner/mining")
 
 local function main(...)
     local args = {...}
     local cfg = config.processConfig()
-    slots.assignSlots(cfg)
+    inventory.slots.assignSlots(cfg)
     local default = args[1] == "def"
 
     if cfg.mineLoop then
