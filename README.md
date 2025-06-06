@@ -15,7 +15,7 @@
 
 ```sh
 mkdir cc-utils && cd cc-utils
-wget "https://raw.githubusercontent.com/yourusername/yourrepo/main/installer.lua" cc-utils-installer.lua
+wget "https://raw.githubusercontent.com/0xZ0uk/cc-utils/main/installer.lua" cc-utils-installer.lua
 ./cc-utils-installer.lua
 ```
 
